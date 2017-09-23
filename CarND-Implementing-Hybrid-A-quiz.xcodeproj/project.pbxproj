@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A64F411F1F763BB0009EBBD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64F411E1F763BB0009EBBD9 /* main.cpp */; };
+		A64F41271F763D73009EBBD9 /* hybrid_breadth_first.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64F41251F763D73009EBBD9 /* hybrid_breadth_first.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A64F411B1F763BB0009EBBD9 /* CarND-Implementing-Hybrid-A-quiz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CarND-Implementing-Hybrid-A-quiz"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64F411E1F763BB0009EBBD9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A64F41251F763D73009EBBD9 /* hybrid_breadth_first.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hybrid_breadth_first.cpp; sourceTree = "<group>"; };
+		A64F41261F763D73009EBBD9 /* hybrid_breadth_first.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hybrid_breadth_first.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A64F411E1F763BB0009EBBD9 /* main.cpp */,
+				A64F41251F763D73009EBBD9 /* hybrid_breadth_first.cpp */,
+				A64F41261F763D73009EBBD9 /* hybrid_breadth_first.h */,
 			);
 			path = "CarND-Implementing-Hybrid-A-quiz";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64F411F1F763BB0009EBBD9 /* main.cpp in Sources */,
+				A64F41271F763D73009EBBD9 /* hybrid_breadth_first.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
